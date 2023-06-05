@@ -4,6 +4,8 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { Twirl as Hamburger } from 'hamburger-react';
 import Data from "./Data";
+import Image from "next/image"
+import Logo from "../../public/logo.png"
 
 const Index = () => {
   const [navbar, setNavbar] = useState(false);
@@ -13,7 +15,9 @@ const Index = () => {
           <div className="justify-between px-4 mx-auto width-screen lg:items-center lg:flex">
             <div>
               <div className="flex items-center justify-between py-3 lg:block">
-                <h1 className='text-[#0B9B7A] font-BodoniModa text-3xl font-bold'>WanderZap</h1>
+                <Link href="/">
+                <Image src={Logo} alt='' width={80} height={64} className='w-20 h-16' />
+              </Link>
                 <div className="lg:hidden">
                   <button
                     className="p-2 text-gray-700 rounded-lg outline-none focus:border-gray-400 focus:border"
