@@ -1,6 +1,5 @@
 "use client"
 import React, { useRef, useEffect } from 'react';
-import Sqiper from 'sqiper'; // Make sure you have installed Sqiper.js and imported it correctly
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image"
 import Stars from "../../public/stars.png";
