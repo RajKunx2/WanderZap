@@ -2,7 +2,7 @@
 import Navbar from "../../Components/Navbar/index";
 import Hero from "../../Components/Hero/Hero";
 import Explore from "../../Components/Hero/Explore";
-import Testimonials from "../../Components/Testimonials/index";
+import Testimonials from "../../Components/Testimonials/Index";
 import Guide from "../../Components/Hero/Guide";
 import React, { useState, useEffect } from "react";
 import Loading from "../../public/loading.gif";
